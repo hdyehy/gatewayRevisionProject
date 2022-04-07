@@ -1,0 +1,149 @@
+*{
+    padding:0;
+    margin:0;
+    background-color:#FFF3D6;
+    }
+    
+    /* font for all paragraphs */
+    p{
+      font-family: 'Fredoka', sans-serif;
+    
+    }
+    
+    /* Parallax Image */
+    .parallax {
+      /* The image used */
+      background-image: url("Photos/barcelonacontacts.png");
+      
+      /* Set a specific height */
+      min-height: 600px;
+      
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    /* Hero */
+    /* Defines the box dimensions and location */
+    .hero{
+      display:flex;
+      align-items: center;
+      width:300px;
+      height: 100px;
+      margin-left: 25%;
+      padding-top:250px;
+      background-color:transparent; 
+    }
+    
+    #hBox{
+      background-color:transparent; 
+    }
+    /* fonts and color for header */
+    #heroHead{
+      font-size:50px;  
+    font-family: 'Libre Baskerville', serif;
+      font-weight:400;
+      color:#FFF3D6; 
+      background-color:transparent; 
+    }
+    
+    
+    /* box properties */
+    #heroP{
+      
+      font-size: 15px;
+      border-radius: 13px;
+      background: #ff8f66;
+      padding:8px;
+    
+    }
+    /* Nav Bar */
+    nav{
+      float: right;
+      background-color:transparent; 
+    
+    }
+    nav ul{
+      background-color:transparent; 
+        list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    nav li{
+      list-style:none;
+      display:inline-block;
+      background-color:transparent; 
+    }
+    nav a{
+      text-decoration: none;
+      font-size: 23px;
+      padding: 5px;
+      background-color:transparent; 
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      border-radius: 18px;
+    }
+    /* changes color to #DF362D when hovered over */
+    li a:hover {
+      background-color: #DF362D;
+    }
+    
+    /* Form */
+      form{
+       width:110px;
+        margin-left: 40%;
+        padding-top: 12%;
+       margin-bottom:12%;
+      }
+    /*  text field box properties */
+      input, textarea{
+        height:40px;
+        width:400px;
+        border-radius:15px;
+        padding-top: 8px;
+        margin-top:10px;
+        padding-left: 10px;
+        border: solid 2px lightgrey;
+        font-family: 'Inconsolata', monospace;
+        font-size: 15px;
+        background-color: white;
+      }
+    /* makes comment box taller */
+    #info5{
+      height:100px;
+    }
+      #sbmt{
+        height:40px;
+        width:410px;
+        text-align: center;
+        margin-left: 0px;
+        background-color:#DF362D;
+        }
+    
+    /* FOOTER */
+    footer {
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      margin-top:100px;
+      color:#DF362D;
+    
+    }
+    footer li{
+      
+      list-style:none;
+      display:inline-block;
+      margin-left:50px;
+    }
+    
+    footer a{
+      margin-left:0px;
+      text-decoration:none;
+      color:#DF362D;
+      font-size:35px;            
+    }
