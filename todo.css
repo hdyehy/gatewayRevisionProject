@@ -1,159 +1,175 @@
-*{
-    padding:0;
-    margin:0;
-    background-color:#FFF3D9;
-  }
-  p{
-    font-family: 'Fredoka', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #FFF3D9;
+}
+
+p {
+  font-family: 'Fredoka', sans-serif;
   /*   font-weight: light; */
-  }
-  /* Header */
-  .parallax {
-    /* The image used */
-    background-image: url("Photos/sagradaactivites.png");
-  
-    /* Set a specific height */
-    min-height: 600px;
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-  /* Hero box */
-  .hero{
-    display:flex;
-    align-items: center;
-    width:300px;
-    height: 100px;
-    margin-left: 25%;
-    padding-top:250px;
-    background-color:transparent; 
-  }
-  
-  #hBox{
-      background-color:transparent; 
-  }
-  #heroHead{
-  font-size:95px;  
+}
+
+/* Header */
+.parallax {
+  /* The image used */
+  background-image: url("Photos/sagradaactivites.png");
+
+  /* Set a specific height */
+  min-height: 600px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Hero box */
+.hero {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 100px;
+  margin-left: 25%;
+  padding-top: 250px;
+  background-color: transparent;
+}
+
+#hBox {
+  background-color: transparent;
+}
+
+#heroHead {
+  font-size: 95px;
   font-family: 'Libre Baskerville', serif;
-    font-weight:400;
-  color:#FFF3D9; 
-  background-color:transparent; 
-  }
-  
-  
-  #heroP{
-  
-    font-size: 15px;
-    border-radius: 13px;
-    background: #ff8f66;
-    padding:8px;
-  
-  }
-  /* Nav Bar */
-  nav{
-    float: right;
-    background-color:transparent; 
-  
-  }
-  nav ul{
-    background-color:transparent; 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  nav li{
-    list-style:none;
-    display:inline-block;
-    background-color:transparent; 
-  }
-  nav a{
-    text-decoration: none;
-    color:#DF362D;
-    font-size: 23px;
-    padding: 5px;
-    background-color:transparent; 
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    border-radius: 18px;
-  }
-  li a:hover {
-    background-color: #DF362D;
-  }
-  
-  /* Activities */
-  h2{
-    text-align:center;
-    font-size:40px;
-    padding-top:15px;
-    color:#DF362D;
-  }
-  .container{
-      display: flex;
-      width:100%;
-      padding-top: 20px;
-      justify-content: space-evenly;
-      margin-top: 20px;
-      }
-    .container .activity{
-      height:350px;
-      width:100%;
-      padding-top:50px;
-      padding-bottom:50px;
-    
-    }
-  
-     .container .activity h3{
-      text-align: center;
-      font-size: 25px;
-    }
-    .container .activity p{
-      width:500px;
-      text-align: justify;
-      color: black;
-      padding-left: 25%;
-      padding-top: 20px;
-      padding-bottom:20px;
-      font-size: 18px;
-    }
-    .container .activity h4{
-      margin-left: 30px;
-      font-size: 18px;
-      padding-top: 20px;
-      padding-left:27%;
-      color:#FF4500;
-  
-    }
-    .container .activity a{
-      
-      color:#DF362D;
-      text-decoration: none;
-      text-transform: uppercase;
-    }
-    
-  /* Footer */
-  footer {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    margin-top:100px;
-    color:#DF362D;
-  }
-  footer li{
-    
-    list-style:none;
-    display:inline-block;
-    margin-left:50px;
-  }
-  footer a{
-    margin-left:0px;
-    text-decoration:none;
-    color:#DF362D;
-    font-size:35px;            
-  }
+  font-weight: 400;
+  color: #FFF3D9;
+  background-color: transparent;
+}
+
+
+#heroP {
+
+  font-size: 15px;
+  border-radius: 13px;
+  background: #ff8f66;
+  padding: 8px;
+
+}
+
+/* Nav Bar */
+nav {
+  float: right;
+  background-color: transparent;
+
+}
+
+nav ul {
+  background-color: transparent;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  background-color: transparent;
+}
+
+nav a {
+  text-decoration: none;
+  color: #DF362D;
+  font-size: 23px;
+  padding: 5px;
+  background-color: transparent;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  border-radius: 18px;
+}
+
+li a:hover {
+  background-color: #DF362D;
+}
+
+/* Activities */
+h2 {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15px;
+  color: #DF362D;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.container .activity {
+  height: 350px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.container .activity h3 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.container .activity p {
+  width: 500px;
+  text-align: justify;
+  color: black;
+  padding-left: 25%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px;
+}
+
+.container .activity h4 {
+  margin-left: 30px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-left: 27%;
+  color: #d52a00;
+
+}
+
+.container .activity a {
+
+  color: #DF362D;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  margin-top: 100px;
+  color: #CD3A03;
+
+}
+
+footer li {
+
+  list-style: none;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+footer a {
+  margin-left: 0px;
+  text-decoration: none;
+  color: #DF362D;
+  font-size: 35px;
+}
